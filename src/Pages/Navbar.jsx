@@ -13,6 +13,8 @@ import {
   Box,
   ButtonGroup,
   Button,
+  GridItem,
+  Grid,
   Heading,
   useDisclosure,
   Spacer,
@@ -477,7 +479,6 @@ const Navbar = () => {
       </Flex>
       <Box w="100%">
         <Flex bgColor="gray" justifyContent="space-evenly" ml="px">
-         
           <Button
             onClick={About}
             border="none"
@@ -525,15 +526,176 @@ const Navbar = () => {
 
           <br />
         </Flex>
-      </Box> 
-     
+      </Box>
 
-  
-   {/* <About/> */}
-  
+      {/* <About/> */}
 
-
-      
+      {/* 
+   Bangalore
+Pune
+Delhi NCR
+Mumbai
+Chennai
+Hyderabad
+Chandigarh
+Kolkata
+Ahmedabad
+Coimbatore
+Indore
+Jaipur
+Mangalore
+Mysore
+Vizag
+Goa
+Nagpur
+Kochi
+Vijayawada
+Siliguri
+Bhopal
+Lucknow
+Guwahati
+Bhubaneswar
+Vadodara
+Nashik
+Udupi-Manipal
+Trichy
+Madurai */}
+<Heading as='h3' size='lg' ml="31px">INDIA</Heading>
+      <Grid
+        ml="35px"
+        mt="31px"
+        border="none"
+        templateColumns={{ base: "repeat(3, 1fr)", lg: "repeat(4, 1fr)" }}
+        gap={6}
+      >
+        <GridItem bgColor="none" w="100%" h="10">
+          <Button  bg="white" bgColor="none">Bangalore</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Pune</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Delhi NCR</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Mumbai</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Chennai</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Hyderabad</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Chandigarh</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Kolkata</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Ahmedabad</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Coimbatore</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Indore</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Jaipur</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Mangalore</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Mysore</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Vizag</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Goa</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Nagpur</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Kochi</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Vijayawada</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Siliguri</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Bhopal</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Lucknow</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Bhubaneswar</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Guwahati</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Udupi-Manipal</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Nashik</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Trichy</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Madurai</Button>
+        </GridItem>
+        <GridItem w="100%" h="10" bg="">
+          <Button  bg="white">Vadodara</Button>
+        </GridItem>
+      </Grid>
+      <Grid   ml="6px"
+        mt="31px"
+        border="none"
+        templateColumns={{ base: "repeat(3, 1fr)", lg: "repeat(4, 1fr)" }}
+        gap={6} >
+           <GridItem w="100%" h="10" bg="">
+         <Heading as='h3' size='lg' ml="31px">INDONESIA</Heading>
+        </GridItem>
+           <GridItem w="100%" h="10" bg="">
+         <Heading as='h3' size='lg' ml="31px">VIETNAM</Heading>
+        </GridItem>
+           <GridItem w="100%" h="1" bg="">
+         <Heading as='h4' size='lg' ml="31px">EGYPT</Heading>
+        </GridItem>
+        </Grid>
+        <Grid  ml="35px"
+        mt="31px"
+        border="none"
+        templateColumns={{ base: "repeat(3, 1fr)", lg: "repeat(4, 1fr)" }}
+        gap={6}>
+          <GridItem  ml="6px" w="100%" h="10" bg="">
+          
+          <Button  bg="white">Jakarta</Button>
+          </GridItem>
+          <GridItem  ml="6px" w="100%" h="10" bg="">
+          <Button  bg="white">Ho Chi Minh</Button>
+          
+          </GridItem>
+          <GridItem   ml="6px" w="100%" h="10" bg="">
+          <Button  bg="white">Cairo</Button>
+        
+          </GridItem>
+        </Grid>
+        <Text mt="21px" ml="35px">Let's keep in touch</Text>
+        <div style={{display:"flex",gap:"15px"}}>
+          <img style={{borderRadius:"56%"}} width="56px" height="10px" src="https://static-prod.adweek.com/wp-content/uploads/2022/01/Instagram-Glyph-Icon-Hero-1600x680.png" alt="" srcset="" />
+          <img style={{borderRadius:"50%"}} width="60px" src="https://static.vecteezy.com/system/resources/previews/002/534/045/original/social-media-twitter-logo-blue-isolated-free-vector.jpg" alt="" srcset="" />
+          <img style={{borderRadius:"50%"}} width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuQBm5VXMdNBCF7a1M3v0Ice9SY1-11A4LC9ok8la8_dhDawyMiDeXkxHIBBCXRhhEwoE&usqp=CAU" alt="" srcset="" />
+          <img style={{borderRadius:"50%"}} width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuQBm5VXMdNBCF7a1M3v0Ice9SY1-11A4LC9ok8la8_dhDawyMiDeXkxHIBBCXRhhEwoE&usqp=CAU" alt="" srcset="" />
+        </div>
     </>
   );
 };
