@@ -9,6 +9,9 @@ const Update = () => {
 
   const history = useNavigate();
 
+
+  
+
   React.useEffect(() => {
     setid(localStorage.getItem("id"));
     setname(localStorage.getItem("name"));
