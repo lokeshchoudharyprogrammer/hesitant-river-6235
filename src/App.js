@@ -1,9 +1,11 @@
 import "./App.css";
-import Navbar from "./Pages/Navbar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbars from "./Pages/Navbars";
+import Routesdata from "./AllRoutes/Routesdata";
 function App() {
   return (
     <>
-      <Navbar />
+      <Routesdata />
     </>
   );
 }

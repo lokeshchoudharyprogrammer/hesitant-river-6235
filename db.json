@@ -1,0 +1,110 @@
+{
+  "Bangalore": [
+    {
+      "name": "Swift",
+      "img": "https://zoomcar-assets.zoomcar.com/photographs/original/289ac94026c19af09c0dd6de322896ebd2a9b227.png?1663874188",
+      "time": "2:00 Pm",
+      "fuel": "Petrol",
+      "totalseat": "4",
+      "location": "Bangalore",
+      "endtime": "8:00Pm",
+      "date": "15/2/2023",
+      "price": "120",
+      "id": 1
+    }
+  ],
+  "Pune": [
+    {
+      "name": "Swift",
+      "img": "https://zoomcar-assets.zoomcar.com/photographs/original/289ac94026c19af09c0dd6de322896ebd2a9b227.png?1663874188",
+      "time": "2:00 Pm",
+      "fuel": "Petrol",
+      "totalseat": "4",
+      "location": "Pune",
+      "endtime": "8:00Pm",
+      "date": "15/2/2023",
+      "price": "120",
+      "id": 1
+    }
+  ],
+  "Delhi": [],
+  "NCR": [
+    {
+      "name": "Swift",
+      "img": "https://zoomcar-assets.zoomcar.com/photographs/original/289ac94026c19af09c0dd6de322896ebd2a9b227.png?1663874188",
+      "time": "2:00 Pm",
+      "fuel": "Petrol",
+      "totalseat": "4",
+      "location": "NCR",
+      "endtime": "8:00Pm",
+      "date": "15/2/2023",
+      "price": "120",
+      "id": 1
+    }
+  ],
+  "Mumbai": [],
+  "Chennai": [],
+  "Hyderabad": [],
+  "Chandigarh": [],
+  "Kolkata": [],
+  "Ahmedabad": [],
+  "Coimbatore": [],
+  "Indore": [],
+  "Jaipur": [],
+  "Mangalore": [],
+  "Mysore": [],
+  "Vizag": [],
+  "Goa": [
+    {
+      "name": "Swift",
+      "img": "https://zoomcar-assets.zoomcar.com/photographs/original/289ac94026c19af09c0dd6de322896ebd2a9b227.png?1663874188",
+      "time": "2:00 Pm",
+      "fuel": "Petrol",
+      "totalseat": "4",
+      "location": "Goa",
+      "endtime": "8:00Pm",
+      "date": "15/2/2023",
+      "price": "120",
+      "id": 1
+    }
+  ],
+  "Nagpur": [
+    {
+      "name": "Shift",
+      "img": "https://zoomcar-assets.zoomcar.com/photographs/original/289ac94026c19af09c0dd6de322896ebd2a9b227.png?1663874188",
+      "time": "3:30",
+      "fuel": "Petrol",
+      "totalseat": "5",
+      "location": "Nagpur",
+      "endtime": "8:45",
+      "date": "14/2/2023",
+      "price": "130",
+      "id": 1
+    }
+  ],
+  "Kochi": [
+    {
+      "name": "Shift",
+      "img": "https://zoomcar-assets.zoomcar.com/photographs/original/289ac94026c19af09c0dd6de322896ebd2a9b227.png?1663874188",
+      "time": "3:30",
+      "fuel": "Petrol",
+      "totalseat": "5",
+      "location": "Kochi",
+      "endtime": "8:45",
+      "date": "14/2/2023",
+      "price": "130",
+      "id": 1
+    }
+  ],
+  "Vijayawada": [],
+  "Siliguri": [],
+  "Bhopal": [],
+  "Lucknow": [],
+  "Guwahati": [],
+  "Bhubaneswar": [],
+  "Vadodara": [],
+  "Nashik": [],
+  "Udupi-Manipal": [],
+  "Trichy": [],
+  "Madurai": []
+}

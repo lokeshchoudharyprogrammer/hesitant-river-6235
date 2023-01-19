@@ -1,0 +1,373 @@
+.navdiv2 {
+    width: 148px;
+    border: 2px solid;
+    height: 42px;
+    border-radius: 36px;
+}
+
+.pic {
+    max-width: 115px;
+}
+
+.NavDiv {
+    gap: 65p;
+    background-image: url(https://www.zoomcar.com/img/hero-banner-web.png);
+    /* back */
+    background-repeat: no-repeat;
+    /* background-size: 300px 100px;
+     */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid black; */
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 0px 500px inset;
+
+}
+
+.Navdivunder1 {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+.Navdivunder2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.navbtn {
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #fff;
+    color: #a8a8a8;
+}
+
+.navbtns {
+    padding: 20px;
+    background-color: #fff;
+    color: #a8a8a8;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    border-radius: 10px;
+}
+
+.sa {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.navbtn1 {
+    display: flex;
+    gap: 1px
+}
+
+.Air {
+    padding: 20px;
+    background-color: #fff;
+    color: black;
+    border-radius: 7px;
+    height: 70px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 221px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.Air1 {
+    width: 221px;
+    height: 70px;
+    font-size: 12px;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.choose {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 30px;
+    justify-content: center;
+
+}
+
+.imgci {
+    margin: auto;
+}
+
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin-top: 120px;
+    /* border: 2px solid black; */
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 0px 500px inset;
+    background-repeat: no-repeat;
+    background-image: url(https://zoomcar-assets.zoomcar.com/images/original/97c77ce8da5affded5e3c4bde712044a90728781.png?1672044755);
+}
+
+.contains {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin-top: 120px;
+    /* border: 2px solid black; */
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 0px 500px inset;
+    background-repeat: no-repeat;
+    background-image: url(https://zoomcar-assets.zoomcar.com/images/original/25371b7b5084fc451b0c3ec9eda278f791188c69.png?1672044863);
+}
+
+.h1tag {
+    font-size: 44px;
+    color: white;
+    margin-top: -184px;
+}
+
+.ptag {
+    color: white;
+    font-size: 19px;
+}
+
+.maincontain {
+    display: flex;
+    align-items: center;
+    /* justify-self: un */
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Footers {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    padding: 21px;
+    cursor: pointer;
+}
+
+/* <div className="footermaindiv"> */
+.footermaindiv {
+    background-color: gray;
+    width: 100%;
+
+}
+
+.footer-new-info-description {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.footer-social-media-logo {
+    display: flex;
+    gap: 22px;
+    margin-top: 22px;
+}
+
+.img-of-the-footer {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 18px; */
+}
+
+.h-of-footer {
+    font-size: 23px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.new-div-in-the-footer {
+    background-color: rgb(34 30 30);
+    padding-top: 22px;
+    gap: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-new-logo-qr-qr-block-image>img {
+    height: 58%;
+    width: 73px;
+}
+
+.flex-main-container {
+    display: flex;
+    gap: 40px;
+}
+
+.imges-of-app {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.last-div-of-footer {
+    background-color: rgb(34 30 30);
+    width: 100%;
+    padding-top: 74px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.last-in-under {
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+
+.wh {
+    background: white;
+}
+
+.flex-data-in-the-footer {
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.flex-of-divs {
+    color: white;
+    display: flex;
+    gap: 34px;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #fff;
+    display: block;
+}
+
+.sty-footer {
+    width: 80%;
+    margin: auto;
+    padding-top: 22px;
+}
+
+.footer-new-logo-text-under {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #e0e0e0;
+}
+
+.st-footer {
+    width: 100%;
+    background-color: #201e1e;
+}
+
+.divs-data {
+    border-radius: 10px;
+}
+
+.footer-new {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    color: white;
+    /* margin-top: 21px; */
+    padding: 21px;
+}
+
+.footer-page-div-of-grids {
+    display: grid;
+    padding-bottom: 12px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.footer-grid-divs {
+    display: grid;
+    margin-top: 18px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 30px;
+}
+
+.footer-grid-divs>div {
+    padding-bottom: 30px;
+
+}
+
+.footer-new-info-description-block-desc {
+    margin-bottom: 26px;
+}
+
+.heading-of-the-footer-page {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.footerheader {
+    margin-bottom: 21px;
+    font-size: 21px;
+    margin-top: 21px;
+}
+
+/* <div className=""> */
+.footer-new-info {
+    display: grid;
+    width: 100%;
+    background-color: #201e1e;
+
+    color: white;
+}
+
+.footer-new-info-description-block-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+
+.footer-new-info-description-block-sub-header {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
