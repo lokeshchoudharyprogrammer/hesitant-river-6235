@@ -37,6 +37,7 @@ const Create = () => {
       headers: {
         "Content-type": "application/json; charset=UTF-8",
       },
+    //   data
     })
       .then((response) => response.json())
       .then((data) => {
