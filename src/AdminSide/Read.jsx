@@ -33,6 +33,7 @@ export default function Reade() {
 
   return (
     <>
+<<<<<<< HEAD
       <div style={{ width: "20%", marginLeft: "12px" }}>
         <select onChange={(e) => setlocation(e.target.value)}>
           <option value="Bangalore">Bangalore</option>
@@ -94,6 +95,43 @@ export default function Reade() {
                   <p>Price : {newdata.price} </p>
                   <p>{newdata.date}</p>
                   <p>{newdata.time}</p>
+=======
+      <div className="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          onClick={() => {
+            settabledark(tabledark === "table-dark" ? "" : "table-dark");
+          }}
+        />
+      </div>
+      <div className="d-flex justify-content-between m-2 ">
+        <h2>Read</h2>
+
+        
+        <Link to="/create">
+          <button onl className="btn btn-secondary">
+            Create
+          </button>
+        </Link>
+      </div>
+      <table className={`table ${tabledark}`}>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        {data.map((newdata, index) => {
+          return (
+            <tbody>
+              <tr>
+                <th scope="row">{newdata.id} </th>
+>>>>>>> 44a300c6ea56e80d3cb1c343a6938c8ee4d47f86
 
                   <button
                     onClick={() => deleteditem(newdata.id)}
