@@ -19,6 +19,7 @@ export const Bangalore = () => {
     return (
       <>
         <div>
+        
           <div
             style={{
               display: "grid",

@@ -25,6 +25,7 @@ export const Coimbatore = () => {
               margin: "auto",
               gridTemplateColumns: "repeat(3,1fr)",
             }}
+            
           >
             {data.map((res) => {
               return (

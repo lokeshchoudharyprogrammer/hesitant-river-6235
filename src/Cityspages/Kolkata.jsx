@@ -24,7 +24,8 @@ export const Kolkata = () => {
               display: "grid",
               margin: "auto",
               gridTemplateColumns: "repeat(3,1fr)",
-            }}
+            }},
+            
           >
             {data.map((res) => {
               return (

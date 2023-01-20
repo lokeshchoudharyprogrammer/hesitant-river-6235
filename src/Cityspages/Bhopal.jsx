@@ -20,6 +20,7 @@ export const Bhopal = () => {
       <>
         <div>
           <div
+          
             style={{
               display: "grid",
               margin: "auto",
