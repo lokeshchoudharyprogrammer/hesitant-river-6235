@@ -20,6 +20,7 @@ export const Chandigarh = () => {
       <>
         <div>
           <div
+          
             style={{
               display: "grid",
               margin: "auto",

@@ -18,7 +18,8 @@ export const Ahmedabad = () => {
     }, [sort]);
     return (
       <>
-        <div>
+        <div> 
+        
           <div
             style={{
               display: "grid",
