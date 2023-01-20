@@ -253,6 +253,16 @@
 
 }
 
+.citybtn button{
+border: 1px solid black;
+padding: 4px;
+margin: 3px;
+}
+.citybtn{
+    padding: 4px;
+    margin: 3px;
+}
+
 .last-in-under {
     width: 80%;
     margin: auto;
