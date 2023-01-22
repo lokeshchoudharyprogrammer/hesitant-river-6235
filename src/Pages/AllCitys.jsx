@@ -13,7 +13,7 @@ export const AllCitys = ({ about }) => {
   const [sort, setsortdata] = React.useState("asc");
   function Fetchdata(data) {
     return fetch(
-      `http://localhost:6536/Bangalore?_sort=price&_order=${data}`
+      `http://localhost:6536/Pune?_sort=price&_order=${data}`
     ).then((res) => res.json());
   }
 
@@ -119,7 +119,6 @@ export const AllCitys = ({ about }) => {
     return navigate("/Madurai");
   };
 
-  // console.log(about);
   return (
     <>
       <div>

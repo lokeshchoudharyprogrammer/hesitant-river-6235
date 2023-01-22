@@ -1,12 +1,13 @@
 import React from "react";
 
+import { Link, NavLink } from "react-router-dom";
 export const Pune = () => {
   const [city, setcity] = React.useState("");
   const [loading, setloading] = React.useState(false);
   const [data, setdata] = React.useState([]);
   const [sort, setsortdata] = React.useState("asc");
   function Fetchdata(data) {
-    return fetch(`http://localhost:6536/Pune?_sort=price&_order=${data}`).then(
+    return fetch(`http://localhost:6536/Pune`).then(
       (res) => res.json()
     );
   }
@@ -29,7 +30,11 @@ export const Pune = () => {
           {data.map((res) => {
             return (
               <div key={res.id}>
+              
+              <NavLink to={`/Pune/${res.id}`}>
+
                 <img src={res.img} width="250px" alt="" srcset="" />
+              </NavLink>
                 <p>Car Name: {res.name}</p>
 
                 <p>Fuel Type :{res.fuel}</p>

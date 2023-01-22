@@ -73,10 +73,22 @@ import {
   onClose,
   Image,
 } from "@chakra-ui/react";
-
+import { AllCitys } from "./AllCitys";
+import { useNavigate } from "react-router-dom";
 const Navbars = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const navigate = useNavigate();
   const btnRef = React.useRef();
+  let loginbtn = () => {
+    console.log("yes");
+    return navigate("/login");
+  };
+
+
+  const findcar=()=>{
+    return navigate("/citys");
+  };
+  
 
   return (
     <>
@@ -111,9 +123,14 @@ const Navbars = () => {
                 <VStack>
                   <Flex alignItems="center" justifyContent="space-between">
                     <MdSupervisedUserCircle />
-                    <Button colorScheme="" color="black" size="lg">
+                    <button
+                      onClick={loginbtn}
+                      colorScheme=""
+                      color="black"
+                      size="lg"
+                    >
                       Login And SignUp
-                    </Button>
+                    </button>
                   </Flex>
                   <Flex alignItems="center" justifyContent="space-between">
                     <MdLocationOff />
@@ -164,7 +181,7 @@ const Navbars = () => {
           <button>
             <img className="navdiv2" src={hostimg} alt="" srcset="" />
           </button>
-          <button>SignUp / Login </button>
+          <button onClick={loginbtn}>SignUp / Login </button>
         </div>
       </div>
 
@@ -189,7 +206,7 @@ const Navbars = () => {
             <BsDot className="sa" />
             Pick Up City Airport hotel
           </button>
-          <button className="navbtn">FIND CARS</button>
+          <button onClick={findcar} className="navbtn">FIND CARS</button>
         </div>
       </div>
 
@@ -336,9 +353,6 @@ const Navbars = () => {
         </div>
       </div>
 
-      {/* Slider */}
-
-      {/* Slider */}
 
       <div className="contains">
         <div className="maincontain">
@@ -727,12 +741,7 @@ const Navbars = () => {
             <div>Trichy</div>
             <div>Madurai</div>
           </div>
-          {/* INDONESIA
-Jakarta
-VIETNAM
-Ho Chi Minh
-EGYPT */}
-          {/* Cairo */}
+         
           <div className="footer-page-div-of-grids">
             <h1 className="heading-of-the-footer-page">INDONESIA</h1>
             <h1 className="heading-of-the-footer-page">VIETNAM</h1>
@@ -860,6 +869,7 @@ EGYPT */}
       </div>
     </>
   );
-};
+
+}
 
 export default Navbars;

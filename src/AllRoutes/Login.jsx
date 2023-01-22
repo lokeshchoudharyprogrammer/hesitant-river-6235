@@ -1,8 +1,10 @@
 import React from "react";
-import { AppContext } from "../Components/Context";
+import { AppContext } from "../Context/Context";
 import { useContext } from "react";
 import axios from "axios";
 import { Navigate } from "react-router-dom";
+
+import { useNavigate } from "react-router-dom";
 import {
   Button,
   Input,
@@ -35,18 +37,21 @@ const reducer = (state, action) => {
       return state;
   }
 };
-export default function Login() {
+const Login = () => {
   const { login, Auth } = useContext(AppContext);
 
   const [state, dispatch] = React.useReducer(reducer, initialState);
-
+  const navigate = useNavigate();
   const handleSubmit = () => {
+    // navigate("/pune");
+    // console.log("Yes")
     axios
       .post(`https://reqres.in/api/login`, {
         email: state.email,
         password: state.password,
       })
       .then((res) => {
+        // console.log(res);
         if (res.data.token) {
           login(res.data.token);
         }
@@ -54,7 +59,7 @@ export default function Login() {
   };
 
   if (Auth) {
-    return <Navigate to="/product"></Navigate>;
+    return <Navigate to="/citys"></Navigate>;
   }
 
   return (
@@ -89,6 +94,7 @@ export default function Login() {
               placeholder="Enter password"
             />
           </InputGroup>
+
           <Button onClick={handleSubmit} colorScheme="blue">
             Button
           </Button>
@@ -96,4 +102,6 @@ export default function Login() {
       </Container>
     </>
   );
-}
+};
+
+export default Login;

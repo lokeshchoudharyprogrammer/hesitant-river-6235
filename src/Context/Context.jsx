@@ -6,10 +6,13 @@ export const AppContext = createContext();
 const Context = ({ children }) => {
   const [token, settoken] = React.useState("");
   const [Auth, setAuth] = React.useState(false);
+
   const login = (tokens) => {
     settoken(tokens);
     setAuth(true);
-    return <Navigate to="/product"></Navigate>;
+
+    console.log(Auth);
+    // return <Navigate to="/citys"></Navigate>;
   };
 
   return (
